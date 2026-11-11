@@ -1,2 +1,9 @@
 # SUNDARA-Ravanan-oled-esp32-
-Monochrome frames video playback 
+Monochrome frames video playback
+HERE IS THE WIRING OLED TO ESP32 
+SDA-ESP32 GPIO 21
+SCL-ESP32 GPIO 22
+
+REQUIRED LIBRARIES IN ARDUINO IDE 
+ADAFRUIT GFX
+ADAFRUIT SSD1306
