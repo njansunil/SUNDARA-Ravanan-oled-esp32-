@@ -1,20 +1,3 @@
-/*
-  ESP32 MONOCHROME VIDEO PLAYER
-  Source: user-uploaded MP4
-  Output: 128x64, 1-bit, 30 FPS, 931 frames
-  Dither: Floyd-Steinberg (grayscale gradient retained before thresholding)
-  Compression: zlib/DEFLATE, Base91 text encoding
-  All compressed video data is embedded in this single .ino file.
-
-  Hardware: ESP32 DevKit V1 (ESP32-WROOM-32) + SSD1306 I2C OLED
-  SDA = GPIO21, SCL = GPIO22, OLED address = 0x3C
-
-  Libraries:
-    - Adafruit GFX
-    - Adafruit SSD1306
-  Decompression uses tinfl from the ESP32 Arduino core ROM; no third-party decoder library.
-*/
-
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
